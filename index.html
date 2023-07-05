@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/74fef44d19.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Дом</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contact">Контакт</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div class="header">
+            <div class="header-text">
+                <h2><span>66-20-20</span></h2>
+                <h1>предоставляем услугу<br>эвакуации <span>(Автоэвакуация)</span>
+                <br> с лучшим сервисом<br>и лучшей ценой.</h1>
+                <a href="./img/ima1.html" class="btn-gaz">Галерея</a>
+                <a href="./pdf/pdf.html" class="btn-gaz">Прайс лист</a>
+              </div>
+              <div class="header-text2">
+                  <img src="images/444.png">
+              </div>
+           </div>
+        </div>
+        
+    </div>
+<!-- ------------------------------------------------------about------------------------------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                
+                <img src="images/car1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">О нас</h1>
+                <p>У нас лучшие специалисты с опытом и навыками ремонта и замены автозапчастей в нужном месте и передовое оборудование,
+                    помимо этого мы предоставляем услугу эвакуации (<span><b>автоэвакуация</b></span>) с лучшим сервисом и лучшей ценой к вашим услугам , Дорогие клиенты.</p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Денис')"><img src="images/dn.png" width="50px" height="50px"><br>Денис</p>
+                        <p class="tab-links" onclick="opentab('Сергей')"><img src="images/cr.png" width="50px" height="50px"><br>Сергей</p>
+                        <p class="tab-links" onclick="opentab('Андреу')"><img src="images/an.png" width="50px" height="50px"><br>Андреу</p>
+                        <p class="tab-links" onclick="opentab('Азиз')"><img src="images/az.png" width="50px" height="50px"><br>Азиз</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Денис">
+                        <ul>
+                            <li><span>Денис</span><br>менеджер по подбору запчастей.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Сергей">
+                        <ul>
+                            <li><span>Сергей</span><br>мастер по ремонту КПП.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Андреу">
+                        <ul>
+                            <li><span>Андрей</span><br>мастер по ремонту ДВС.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Азиз">
+                        <ul>
+                            <li><span>Азиз</span><br>мастер по ремонту ходовой.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------------------------------------------service---------------------------------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Наши услуги</h1>
+        <div class="services-list">
+            <div>
+                <img src="images/crankshaft (1).png">
+                <h2>Ремонт двигателя</h2>
+                <p>Опытные и знающие специалисты в области ремонта двигателей.</p>
+                <a href="services/en.html">Узнать больше</a>
+            </div>
+            <div>
+                <img src="images/gear-box (1).png">
+                <h2>Ремонт коробки передач</h2>
+                <p>Опытные и знающие специалисты в области ремонта коробок передач.</p>
+                <a href="services/gr.html">Узнать больше</a>
+            </div>
+            <div>
+                <img src="images/chassis (1).png">
+                <h2>Ремонт и замена</h2>
+                <p>Опытные и знающие специалисты в области ремонта и замены автомобильных запчастей.</p>
+                <a href="services/p.html">Узнать больше</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------------------------------------------------portfolio-------------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">Примеры нашей работы</h1>
+        <div class="work-list">
+            <div class="work">
+               <img src="images/en2.png">
+                <div class="layer">
+                  <h3>Ремонт двигателя</h3>
+                  <p>Опытные и знающие специалисты в области ремонта двигателей.</p>
+                  <a href="services/en.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+               <img src="images/ge2.png">
+                <div class="layer">
+                  <h3>Ремонт коробки передач</h3>
+                  <p>Опытные и знающие специалисты в области ремонта коробок передач.</p>
+                  <a href="services/gr.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+               <img src="images/ru2.png">
+                <div class="layer">
+                  <h3>Ремонт и замена</h3>
+                  <p>Опытные и знающие специалисты в области ремонта и замены автомобильных запчастей.</p>
+                  <a href="services/p.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn-gaz">Узнать больше</a>
+    </div>
+</div>
+
+
+<!-- -----------------------------------------------------contact----------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Свяжитесь с нами</h1>
+                <p><i class="fa-solid fa-paper-plane" id="tel1"></i>  @evik_662020</p>
+                <p><i class="fa-solid fa-square-phone"></i>   8-918-7-500-200</p>
+                <p><i class="fa-solid fa-square-phone"></i>   66-20-20</p>
+                <p><i class="fa-solid fa-square-phone"></i>   66-00-60</p>
+                <div class="cocial-icons">
+                    <a href="https://instagram.com/sto_stavsiti?igshid=ZGUzMzM3NWJiOQ==" class="instagram">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/qr/IRARAQH7BIOJO1" class="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="" ></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Ваше имя" required>
+                    <input type="email" name="Email" placeholder="Ваш адрес электронной почты" required>
+                    <textarea name="Message" rows="6" placeholder="Ваше сообщение"></textarea>
+                    <button type="submit" class="btn btn2">Отправлять</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    .
+</div>
+
+<Script>
+
+
+   var tablinks = document.getElementsByClassName("tab-links")
+   var tabcontents = document.getElementsByClassName("tab-contents")
+   function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab");
+   }
+
+
+ </Script>
+ 
+
+ <script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+
+    }
+       function closemenu(){
+        sidemeu.style.right = "-150px";
+        
+    }
+
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyYgW7Shj3dZWu7k0f08vK0FCOa3hWZfrHgSf4bxUwpvzgjlnab4bTYGSD36Ha2CF28GQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Здравствуйте, Ваше сообщение отправлено."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>

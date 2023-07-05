@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    color: #5ff;
+    background: #080808;
+    text-align: center;
+}
+#hover{
+    margin-top: 0.1vh;
+    text-align: center;
+    display: inline-block;
+}
+h3{
+    color: #ff004f;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: 900;
+    border-bottom: 3px solid #0fffdb;
+    width: 50%;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-bottom: 30px;
+    transition: border 1s;
+}
+h3 span{
+    color: #fff;
+    font-weight: 100;
+    padding-left: 20px;
+    transition: color 1s;
+}
+h3:hover{
+    border-bottom: 3px solid #ff004f;
+    transform: border;
+}
+
+.box table{
+    text-align: center;
+    display: inline-block;
+}
+table {
+    border-collapse: collapse;
+}
+table tr th{
+    border: 1px solid #555;
+    
+}
+table tr td{
+    border: 1px solid #555;
+    font-size: 15px;
+}
+th, td{
+    padding: 5px;
+}
+.btn-gaz{
+    display: flex;
+    margin: 20px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+
+}
+.btn-gaz:hover{
+    background: #ff004f;
+}
+@media only screen and (max-width: 600px){
+   
+
+
+
+}
